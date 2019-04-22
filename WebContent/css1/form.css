@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+.top{
+	position:absolute;top:0px;left:0px;width:100%;height:80px;background-color: #354457;;
+}
+.left{
+	position:absolute;top:100px;left:0px;width:200px;height:760px;background-color:blue;
+}
+.right{
+	position:absolute;top:100px;left:200px;height:760px;width:100%; background-color:white;
+}
+.left{
+	background-color: #4d5e70;
+	height: 100%
+}
+.person{
+	height:100px;
+	background-color:#4d5e70; 
+}
+.fineinput{
+	margin-left: 20px;
+	
+}
+table.dataintable {
+  margin-top:15px;
+  border-collapse:collapse;
+  border:1px solid #aaa;
+  width:50%;
+}
+table.dataintable th {
+  vertical-align:baseline;
+  padding:5px 15px 5px 6px;
+  background-color:#3F3F3F;
+  border:1px solid #3F3F3F;
+  text-align:left;
+  color:#fff;
+}
+table.dataintable td {
+  vertical-align:text-top;
+  padding:6px 15px 6px 6px;
+  border:1px solid #aaa;
+}
+table.dataintable tr:nth-child(odd) {
+  background-color:#F5F5F5;
+}
+table.dataintable tr:nth-child(even) {
+  background-color:#fff;
+}
